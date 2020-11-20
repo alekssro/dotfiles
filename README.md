@@ -1,22 +1,27 @@
 # dotfiles
 
-# Install zsh
+# Set up dotfiles
 
+1. Install zsh
 ```
 sudo apt install zsh
 ```
 
-# Set zsh as default shell
-
+2. Set zsh as default shell
 ```
 chsh -s $(which zsh)
 ```
 
-At this point, restart session to apply changes.
+3. Restart session to apply changes
 
-# Install dotfiles
+4. Update git submodules:
 
-```
-./init.zsh
-```
+  ```sh
+  cd dotfiles
+  git submodule init
+  git submodule update
+  ```
 
+5. Run init script: `./init.zsh`
+
+6. Restart the shell or run `exec zsh`
