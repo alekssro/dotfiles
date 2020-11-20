@@ -23,10 +23,11 @@ function msg() {
 local -A dotfiles
 dotfiles=(
 	git              ".config/git"
+	nano		 ".nano"
 	nanorc           ".config/nano/nanorc"
 	ohmyzsh          ".zsh/ohmyzsh"
 	ohmyzsh-custom   ".zsh/ohmyzsh-custom"
-    tmux             "tmux"
+    	tmux             "tmux"
 	tmux.conf        ".tmux.conf"
 	vimrc            ".vimrc"
 	zshenv           ".zshenv"
