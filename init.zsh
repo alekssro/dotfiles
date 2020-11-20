@@ -23,16 +23,13 @@ function msg() {
 local -A dotfiles
 dotfiles=(
 	aliases          ".zsh/aliases"
-	dircolors        ".zsh/dircolors"
 	functions        ".zsh/functions"
 	git              ".config/git"
 	nanorc           ".config/nano/nanorc"
-	npmrc            ".npmrc"
 	ohmyzsh          ".zsh/ohmyzsh"
 	ohmyzsh-custom   ".zsh/ohmyzsh-custom"
-	tigrc            ".config/tig/config"
+    tmux             ".tmux"
 	tmux.conf        ".tmux.conf"
-	toprc            ".config/procps/toprc"
 	vimrc            ".vimrc"
 	zshenv           ".zshenv"
 	zshrc            ".zshrc"
