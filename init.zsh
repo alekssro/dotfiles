@@ -22,8 +22,6 @@ function msg() {
 # Files to be symlinked to home directory
 local -A dotfiles
 dotfiles=(
-	aliases          ".zsh/aliases"
-	functions        ".zsh/functions"
 	git              ".config/git"
 	nanorc           ".config/nano/nanorc"
 	ohmyzsh          ".zsh/ohmyzsh"
