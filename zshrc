@@ -74,14 +74,13 @@ plugins=(
     gitignore
     z
     sudo
-    src
     history-substring-search
     npm
     docker-compose
 
     # custom plugins
     k
-    ragequit
+    # ragequit
     zsh-autosuggestions
     zsh-syntax-highlighting
 )
