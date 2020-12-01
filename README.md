@@ -31,3 +31,9 @@ chsh -s $(which zsh)
 5. Run init script: `./init.zsh`
 
 6. Restart the shell or run `exec zsh`
+
+7. Install Powerline Fonts 
+
+```
+sudo apt-get install fonts-powerline
+```
