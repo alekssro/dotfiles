@@ -116,3 +116,10 @@ source $ZSH/oh-my-zsh.sh
 # custom aliases
 alias ohmyzsh='vsc "$ZSH"'
 [[ -f ~/.aliases ]] && . ~/.aliases
+
+# Conda paths
+export PATH="/home/goodfellow/anaconda3/bin":$PATH
+export PATH="/home/seda-dev/anaconda3/bin":$PATH
+
+
+
