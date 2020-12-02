@@ -116,18 +116,3 @@ source $ZSH/oh-my-zsh.sh
 # custom aliases
 alias ohmyzsh='vsc "$ZSH"'
 [[ -f ~/.aliases ]] && . ~/.aliases
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/alekssro/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/alekssro/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/alekssro/miniconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/alekssro/miniconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
