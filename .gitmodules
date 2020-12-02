@@ -16,3 +16,6 @@
 [submodule "ohmyzsh-custom/plugins/zsh-syntax-highlighting"]
 	path = ohmyzsh-custom/plugins/zsh-syntax-highlighting
 	url = https://github.com/zsh-users/zsh-syntax-highlighting
+[submodule "tldr-sh-client"]
+	path = tldr-sh-client
+	url = https://github.com/raylee/tldr-sh-client.git
