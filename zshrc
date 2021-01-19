@@ -2,7 +2,7 @@
 export PATH=$HOME/bin:$PATH
 export PATH=/usr/local/bin:$PATH
 
-# Path to your oh-my-zsh installation.
+# Path to oh-my-zsh installation.
 export ZSH=$HOME/.zsh/ohmyzsh
 
 # Set name of the theme to load --- if set to "random", it will
@@ -120,6 +120,6 @@ alias ohmyzsh='vsc "$ZSH"'
 # Conda paths
 export PATH="/home/goodfellow/anaconda3/bin":$PATH
 export PATH="/home/seda-dev/anaconda3/bin":$PATH
-
+export PATH=$HOME/miniconda3/bin:$PATH
 
 
