@@ -3,7 +3,6 @@ set autoindent
 set mouse
 set linenumbers 
 
-
 include "~/.nano/apacheconf.nanorc"
 include "~/.nano/arduino.nanorc"
 include "~/.nano/asciidoc.nanorc"
