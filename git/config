@@ -1,6 +1,6 @@
 [user]
 	name = Alejandro Roca
-	email = alekss.ro@gmail.com
+	email = aroca@hi-iberia.es
 
 [alias]
 	bigbang = checkout --orphan
