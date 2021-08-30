@@ -18,7 +18,6 @@ function msg() {
 	print -P %f
 }
 
-
 # Files to be symlinked to home directory
 local -A dotfiles
 dotfiles=(
