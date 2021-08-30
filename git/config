@@ -38,3 +38,5 @@
 	difffilter = diff-highlight
 [reset]
 	quiet = true
+[credential]
+	helper = cache
