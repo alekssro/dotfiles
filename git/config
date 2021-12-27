@@ -1,6 +1,6 @@
 [user]
 	name = Alejandro Roca
-	email = aroca@hi-iberia.es
+	email = alejandro.roca@byhours.com
 
 [alias]
 	bigbang = checkout --orphan
@@ -29,14 +29,17 @@
 	coloring = repeatedLines
 
 [pager]
-	diff = diff-highlight | less -FR -x1,5
-	show = diff-highlight | less -FR -x1,5
-	log = diff-highlight | less -FR -x1,5
+	diff = less -FR -x1,5
+	show = less -FR -x1,5
+	log = less -FR -x1,5
 	branch = false
 
-[interactive]
-	difffilter = diff-highlight
 [reset]
 	quiet = true
 [credential]
 	helper = cache
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
