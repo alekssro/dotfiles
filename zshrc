@@ -72,16 +72,14 @@ export ZSH_CUSTOM="$HOME/.zsh/ohmyzsh-custom"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
     git
-    gitignore
     z
     sudo
     history-substring-search
-    npm
+    web-search
     docker-compose
+    kubectl
 
     # custom plugins
-    k
-    # ragequit
     zsh-autosuggestions
     zsh-syntax-highlighting
 )
