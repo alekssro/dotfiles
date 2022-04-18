@@ -21,15 +21,17 @@ function msg() {
 # Files to be symlinked to home directory
 local -A dotfiles
 dotfiles=(
-    git              		".config/git"
+    autostart               ".config/autostart"
+    git                     ".config/git"
     nano		 			".nano"
-    nanorc           		".config/nano/nanorc"
-	neofetch				".config/neofetch/config.conf"
+    nanorc                  ".config/nano/nanorc"
+    neofetch                ".config/neofetch/config.conf"
     ohmyzsh          		".zsh/ohmyzsh"
     ohmyzsh-custom   		".zsh/ohmyzsh-custom"
-	terminator				".config/terminator/config"
+    pop-shell               ".config/pop-shell/config.json"
+    terminator              ".config/terminator/config"
     tldr-sh-client/tldr		".local/bin/tldr"
-	vim 					".vim"
+    vim 					".vim"
     vimrc            		".vimrc"
     zshenv           		".zshenv"
     zshrc            		".zshrc"
