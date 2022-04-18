@@ -78,7 +78,6 @@ plugins=(
     web-search
     docker-compose
     kubectl
-
     # custom plugins
     zsh-autosuggestions
     zsh-syntax-highlighting
@@ -120,3 +119,5 @@ bashcompinit
 
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/bin/terraform terraform
+
+echo neofetch
