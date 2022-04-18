@@ -27,8 +27,6 @@ dotfiles=(
 	ohmyzsh          ".zsh/ohmyzsh"
 	ohmyzsh-custom   ".zsh/ohmyzsh-custom"
 	tldr-sh-client/tldr		".local/bin/tldr"
-    tmux             "tmux"
-	tmux.conf        ".tmux.conf"
 	vimrc            ".vimrc"
 	zshenv           ".zshenv"
 	zshrc            ".zshrc"

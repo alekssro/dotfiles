@@ -1,9 +1,6 @@
 [submodule "ohmyzsh"]
         path = ohmyzsh
         url = https://github.com/ohmyzsh/ohmyzsh
-[submodule "tmux/plugins/tpm"]
-        path = tmux/plugins/tpm
-        url = https://github.com/tmux-plugins/tpm
 [submodule "nano"]
         path = nano
         url = https://github.com/scopatz/nanorc
