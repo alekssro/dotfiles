@@ -9,11 +9,13 @@ git clone https://github.com/alekssro/dotfiles
 # Set up dotfiles
 
 1. Install zsh
-```
-sudo apt install zsh
-```
+  ```
+  sudo pacman -S zsh    # Arch
+  sudo apt install zsh  # Debian
+  sudo yum install zsh  # CentOS
+  ```
 
-2. Set zsh as default shell
+1. Set zsh as default shell
 ```
 chsh -s $(which zsh)
 ```
@@ -31,9 +33,3 @@ chsh -s $(which zsh)
 5. Run init script: `./init.zsh`
 
 6. Restart the shell or run `exec zsh`
-
-7. Install Powerline Fonts 
-
-```
-sudo apt-get install fonts-powerline
-```

@@ -73,3 +73,6 @@ grep -q "\. \"\$HOME/${dotfiles[zshenv]}\"" ~/.profile || {
 		fi
 	EOF
 }
+
+# After install steps
+msg OK "Done!"
