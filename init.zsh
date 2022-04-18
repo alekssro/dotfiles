@@ -24,6 +24,7 @@ dotfiles=(
     git              		".config/git"
     nano		 			".nano"
     nanorc           		".config/nano/nanorc"
+	neofetch				".config/neofetch/config.conf"
     ohmyzsh          		".zsh/ohmyzsh"
     ohmyzsh-custom   		".zsh/ohmyzsh-custom"
     tldr-sh-client/tldr		".local/bin/tldr"

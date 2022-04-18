@@ -33,3 +33,13 @@ chsh -s $(which zsh)
 5. Run init script: `./init.zsh`
 
 6. Restart the shell or run `exec zsh`
+
+## Optional
+
+### Install neofetch
+
+```
+sudo pacman -S neofetch   # Arch
+sudo apt install neofetch # Debian
+sudo yum install neofetch # CentOS
+```
