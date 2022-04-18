@@ -27,6 +27,7 @@ dotfiles=(
 	neofetch				".config/neofetch/config.conf"
     ohmyzsh          		".zsh/ohmyzsh"
     ohmyzsh-custom   		".zsh/ohmyzsh-custom"
+	terminator				".config/terminator/config"
     tldr-sh-client/tldr		".local/bin/tldr"
 	vim 					".vim"
     vimrc            		".vimrc"
