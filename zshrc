@@ -78,7 +78,6 @@ plugins=(
     web-search
     docker-compose
     kubectl
-
     # custom plugins
     zsh-autosuggestions
     zsh-syntax-highlighting
@@ -120,3 +119,12 @@ bashcompinit
 
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/bin/terraform terraform
+
+if command -v neofetch &> /dev/null
+then
+    neofetch
+fi
+
+# FIX for zsh-autosuggestions color
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+  		ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=239'
