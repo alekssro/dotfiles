@@ -157,3 +157,28 @@ map Y y$
 nnoremap <C-L> :nohl<CR><C-L>
 
 "------------------------------------------------------------
+" Plugins {{{1
+"
+" Plugins are a way to add functionality to Vim. Plugins are loaded from the
+" 'plugin' directory, and are loaded in alphabetical order.
+call plug#begin('~/.vim/plugins')
+
+"Syntax highlighting for a set of languages
+Plug 'sheerun/vim-polyglot'
+
+"The Nerd tree file system explorer
+Plug 'scrooloose/nerdtree'
+
+"vim-gitgutter shows a git diff in the sign column
+Plug 'airblade/vim-gitgutter'
+
+"Fugitive Vim Github Wrapper
+Plug 'tpope/vim-fugitive'
+
+"Autocompleter for Vim
+Plug 'valloric/youcompleteme'
+
+"Surround: quoting/parenthesizing made simple
+Plug 'tpope/vim-surround'
+
+call plug#end()
