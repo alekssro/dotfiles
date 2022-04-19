@@ -125,6 +125,3 @@ then
     neofetch
 fi
 
-# FIX for zsh-autosuggestions color in manjaro
-source $ZSH_CUSTOM/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-    ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=239'
