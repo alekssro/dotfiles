@@ -120,8 +120,8 @@ bashcompinit
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/bin/terraform terraform
 
-if command -v neofetch &> /dev/null
-then
-    neofetch
-fi
+# if command -v neofetch &> /dev/null
+# then
+#     neofetch
+# fi
 
