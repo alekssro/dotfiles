@@ -18,8 +18,8 @@
     foreground_color = "#f8f8f2"
     scrollback_infinite = True
     disable_mousewheel_zoom = True
-    use_system_font = False
-    palette = "#44475a:#ff5555:#50fa7b:#f1fa8c:#8be9fd:#bd93f9:#ff79c6:#94a3a5:#000000:#ff5555:#50fa7b:#f1fa8c:#8be9fd:#bd93f9:#ff79c6:#ffffff"
+    palette = "#c0bfbc:#ff5555:#50fa7b:#f1fa8c:#8be9fd:#bd93f9:#ff79c6:#94a3a5:#7a7a7a:#ff5555:#50fa7b:#f1fa8c:#8be9fd:#bd93f9:#ff79c6:#ffffff"
+    bold_is_bright = True
     copy_on_selection = True
     background_image = None
 [layouts]

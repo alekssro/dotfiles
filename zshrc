@@ -87,6 +87,8 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8'
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
