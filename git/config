@@ -1,6 +1,5 @@
 [user]
 	name = alekssro
-	email = alejandro.roca@feverup.com
 
 [alias]
 	bigbang = checkout --orphan
