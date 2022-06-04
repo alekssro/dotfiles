@@ -1,6 +1,7 @@
 # Add bins to PATH
 export PATH=$HOME/bin:$PATH
 export PATH=/usr/local/bin:$PATH
+export PATH=/home/linuxbrew/.linuxbrew/bin:$PATH
 
 # Path to oh-my-zsh installation.
 export ZSH=$HOME/.zsh/ohmyzsh
