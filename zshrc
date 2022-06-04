@@ -128,3 +128,5 @@ complete -o nospace -C /usr/bin/terraform terraform
 #     neofetch
 # fi
 
+# SOPS age key file
+export SOPS_AGE_KEY_FILE=~/.config/sops/age/keys.txt
