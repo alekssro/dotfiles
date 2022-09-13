@@ -121,7 +121,7 @@ autoload bashcompinit
 bashcompinit
 
 autoload -U +X bashcompinit && bashcompinit
-complete -o nospace -C /usr/bin/terraform terraform
+complete -o nospace -C ~/bin/terraform terraform
 
 # if command -v neofetch &> /dev/null
 # then
